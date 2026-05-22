@@ -1,0 +1,8 @@
+.git
+.cursor
+.venv
+__pycache__
+*.pyc
+data
+resources/references.json.gz
+resources/vectors.npy

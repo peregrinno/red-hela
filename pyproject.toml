@@ -1,0 +1,28 @@
+[project]
+name = "red-hela"
+version = "0.2.0"
+description = "Rinha de Backend 2026 - detecção de fraude por busca vetorial"
+requires-python = ">=3.12"
+dependencies = [
+    "starlette>=0.46.0",
+    "uvicorn[standard]>=0.32.0",
+    "msgspec>=0.19.0",
+    "numpy>=2.0.0",
+    "loguru>=0.7.0",
+]
+
+[dependency-groups]
+build = [
+    "ijson>=3.3.0",
+    "scikit-learn>=1.5.0",
+]
+
+[build-system]
+requires = ["setuptools>=75.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

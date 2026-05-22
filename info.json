@@ -1,0 +1,7 @@
+{
+  "participants": ["José"],
+  "social": [],
+  "source-code-repo": "https://github.com/jose_/red-hela",
+  "stack": ["python", "starlette", "msgspec", "uvicorn", "numpy", "nginx", "uv", "loguru"],
+  "open_to_work": false
+}
